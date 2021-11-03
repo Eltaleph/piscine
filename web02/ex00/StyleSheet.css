@@ -1,0 +1,28 @@
+
+html, body {
+	height: 100%;
+	margin: 0px;
+	}
+table {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	text-align: center;
+	border: 3px solid black;
+	border-collapse:collapse;
+	}
+td {
+	width: 50%;
+	border: 2px solid black;
+	}
+.cell01 {
+	background-color: pink;
+	}
+.cell02 {
+	background-color: #85C1E9;
+	}
+
