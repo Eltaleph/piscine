@@ -1,0 +1,82 @@
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+}
+
+img {
+	margin: 0px;
+	display: block;
+}
+
+table {
+	margin: 0px;
+	border: 0px;
+	border-collapse: collapse;
+	text-align: center;
+	font-family: "Gill Sans";
+	box-shadow: 1px 1px 10px 1px rgba(50,50,50,.8);
+}
+
+tr, td {
+	border-spacing:0px;
+	padding: 0px;
+}
+
+.icon {
+	width: 20px;
+	height: 20px;
+	padding: 20px 5px 30px 5px;
+	float: center;
+	display: inline-block;
+}
+
+.title {
+	font-family: "Gill Sans";
+}
+
+.name {
+	font-size: 30px;
+}
+
+.catchphrase {
+	color: grey;
+	font-size: 20px;
+}
+
+.contact {
+	height: 50px;
+	font-family: "Courier New";
+	font-size: 15px;
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+	background-color: black;
+	transition: all 0.5s;
+}
+
+.contact span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.contact span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+.contact:hover span {
+	padding-right: 25px;
+}
+
+.contact:hover span:after {
+	opacity: 1;
+	right: 0;
+}

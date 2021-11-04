@@ -1,15 +1,28 @@
 
+html {
+	height: 100%;
+	width: 100%;
+}
+
 .dropbtn {
 	background-color: pink;
-	color: white;
-	padding: 15px;
-	font-size: 15px;
-	border: none;
-	min-width: 200px;
+	color: black;
+	font-family: "comic-sans-ms";
+	padding: 20px;
+	font-size: 30px;
+	border: 2px solid black;
+	/*min-width: 200px;*/
+	width: 100%;
 }
 
 .dropdown {
-	position: relative;
+	margin: 0px;
+	width: 30%;
+	position: absolute;
+	top: 50%;
+	left: 35%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
 	display: inline-block;
 }
 
@@ -17,7 +30,8 @@
 	display: none;
 	position: absolute;
 	background-color: black;
-	min-width: 200px;
+	/*min-width: 200px;*/
+	width: 100%;
 	box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.2);
 	z-index: 1;
 }
@@ -29,7 +43,7 @@
 	display: block;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {background-color: blue;}
 
 .dropdown:hover .dropdown-content {display: block;}
 
